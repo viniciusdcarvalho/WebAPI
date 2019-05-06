@@ -9,8 +9,8 @@ CREATE TABLE [dbo].[usuarios] (
 //MySQL
 
 CREATE TABLE IF NOT EXISTS usuarios (
-  id int(11) NOT NULL AUTO_INCREMENT,
+  id int NOT NULL AUTO_INCREMENT,
   nome varchar(220) COLLATE utf8_unicode_ci NOT NULL,
-  celular int(15) NULL,
+  celular int NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci; 
